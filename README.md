@@ -4,7 +4,7 @@
 
 <hr>
 
-Nível Fácil: 
+<strong>Nível Fácil:</strong>
 <ol>
     <li><a href="https://sraraujo.github.io/projetos/facil/calculadora-IMC/" target="_blank" rel="external">Calculadora de IMC</a>
 </ol>
