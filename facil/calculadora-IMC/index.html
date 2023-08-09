@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de IMC</title>
+    <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="estilo.calculadoraIMC.css">
+</head>
+<body>
+
+    <h1>Calculadora de IMC</h1>
+ 
+    <section>
+        <p>
+            <label for="peso">Peso (Kg):</label>                  
+        </p>
+        
+        <p>
+            <input type="number" name="" id="peso" width="300px" class="dados" placeholder="Peso ex: 60,50">
+        </p>
+        
+        <p>
+            <label for="altura">Altura (m):</label>
+        </p>
+        
+        <p>
+            <input type="number" name="" id="altura" step="0.1" class="dados" placeholder="Altura ex: 1,70">
+        </p>
+        
+        <p id="p-botao">
+            <input type="submit" value="Calcular" class="botao" onclick="calcularIMC()">
+            <button type="reset" class="botao" onclick="limpar()">Limpar</button>
+        </p>
+        
+        <div>
+            <p id="resposta">Preencha os dados acima
+                <br> para ver o resultado aqui!</p>
+        </div>
+    </section>
+
+    <footer>
+        <a href="https://sraraujo.github.io/redes-sociais" target="_blank" rel="txternal">&copy;Dev Jota Pereira</a>
+    </footer>
+
+    <script src="calculadoraIMC.js"></script>
+    
+</body>
+</html>
