@@ -1,0 +1,113 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "fonte-p";
+    src: url("fonte/Livingst.ttf");
+}
+
+:root{
+    --font01: 'fonte-p'
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+body{
+    background-image: linear-gradient(to right, #33ac33aa, #2424c999);
+}
+
+h1{
+    font-family: var(--font01);
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    margin: 50px auto 20px auto;
+}
+
+p{
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+section{
+    width: 300px;
+    height: auto;
+
+    margin: 0 auto 20px;
+    padding: 20px;
+
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.372);
+}
+
+#numero{
+    width: 150px;
+    padding: 5px;
+    
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px #00000058;
+    border: 1px solid #7e7c7c83;
+
+}
+
+.bt-jogar{
+    padding: 7px 15px;
+
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px #0000003b;
+    border: 1px solid #7e7c7c83;
+}
+
+.bt-jogar:hover{
+    background-color: #45e545;
+}
+
+.bt-jogar:active{
+    background-color: #2c8e2c;
+}
+
+#resposta{
+    text-align: center;
+    margin: 30px auto 10px auto;
+}
+
+
+a{
+    color: white;
+    font-style: italic;
+}
+
+a:hover{
+    color: yellow;
+    text-decoration: underline;
+}
+
+a:active{
+    color: red;
+    text-decoration: underline;
+}
+
+/* UTILITáRIOS */
+
+#azul{
+    color: #0000ff;
+}
+
+#vermelho{
+    color: #ff0000;
+}
+
+.txt-c{
+    text-align: center;
+}
+

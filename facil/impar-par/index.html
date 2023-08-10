@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Par ou Ímpar</title>
+    <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="impar-par.css">
+</head>
+<body>
+
+    <h1 class="txt-c">Jogo <br> Par ou Ímpar</h1>
+
+    <section>
+        <p>Escolha: 
+            <input type="radio" name="impar-par" id="par">
+            <label for="par">Par</label>
+
+            <input type="radio" name="impar-par" id="impar" checked>
+            <label for="impar">Ímpar</label>
+        </p>
+
+        <p>
+            <label for="numero">Número:
+                <input type="number" name="" id="numero" placeholder="Escolha N° (0 a 10)">
+            </label>
+        </p>
+
+        <p>
+            <input type="submit" value="Jogar" class="bt-jogar" onclick="jogar()">
+            <button type="reset" class="bt-jogar" onclick="limpar()">Limpar</button>
+        </p>
+
+        <div id="resposta"></div>
+
+    </section>
+
+    <footer class="txt-c">
+        <a href="https://sraraujo.github.io/redes-sociais" target="_blank" rel="external">&copy; Dev Jota Pereira</a>
+    </footer>
+
+    <script src="impar-par.js"></script>
+    
+</body>
+</html>
