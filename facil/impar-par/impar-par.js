@@ -46,6 +46,7 @@ function jogar(){
 function limpar(){
     vitoria = ''
     derrota = ''
+    numero = ''
     resposta.innerHTML = ""
 }
 
