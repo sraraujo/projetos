@@ -20,32 +20,32 @@ function jogar(){
         // escolha sendo PAR - a mádia dando "zero" significa que a soma dos números é um número par, logo, eu ganho
         if (escolha[0].checked && media == 0){
             vitoria += 1
-            confirm(`Eu venci: ${numero_meu}+${numero_skynet} = ${numero_meu + numero_skynet} PAR`)
+            resposta.innerHTML = `Eu venci: ${numero_meu} + ${numero_skynet} = ${numero_meu + numero_skynet} PAR`
         
         // escolha sendo PAR - a média dando "um", significa que a soma dos números deu um números ímpar, logo, perdi
         }else if (escolha[0].checked && media == 1){
             derrota += 1
-            confirm(`Eu perdi: ${numero_meu}+${numero_skynet} = ${numero_meu + numero_skynet} ÍMPAR`)
+            resposta.innerHTML = `Eu perdi: ${numero_meu} + ${numero_skynet} = ${numero_meu + numero_skynet} ÍMPAR`
         
         // escolha sendo ÍMPAR - a mádia dando "um" significa que a soma dos números é um número ímpar, logo, eu ganho
         }else if (escolha[1].checked && media  == 1){
             vitoria += 1
-            confirm(`Eu venci: ${numero_meu}+${numero_skynet} = ${numero_meu + numero_skynet} ÍMPAR`)
+            resposta.innerHTML = `Eu venci: ${numero_meu} + ${numero_skynet} = ${numero_meu + numero_skynet} ÍMPAR`
         
         // escolha sendo ÍMPAR - a média dando "zero", significa que a soma dos números deu um números par, logo, perdi
         } else if (escolha[1].checked && media == 0){
             derrota += 1
-            confirm(`Eu perdi: ${numero_meu}+${numero_skynet} = ${numero_meu + numero_skynet} PAR`)
+            resposta.innerHTML = `Eu perdi: ${numero_meu} + ${numero_skynet} = ${numero_meu + numero_skynet} PAR`
         }
         
-        resposta.innerHTML = `<span id="azul">Vitória ${vitoria}</span> x <span id="vermelho">${derrota} Derrota</span>`
+        resposta.innerHTML += `<hr><span id="azul">Vitória ${vitoria}</span> x <span id="vermelho">${derrota} Derrota</span>`
     }
 
 }
 
 function limpar(){
-    vitoria = ''
-    derrota = ''
+    vitoria = 0
+    derrota = 0
     numero = ''
     resposta.innerHTML = ""
 }

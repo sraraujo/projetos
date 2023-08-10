@@ -99,6 +99,10 @@ a:active{
 
 /* UTILITáRIOS */
 
+hr{
+    margin: 8px 0;
+}
+
 #azul{
     color: #0000ff;
 }
