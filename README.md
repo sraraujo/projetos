@@ -8,7 +8,6 @@
     <summary>
         <strong>Nível Fácil:</strong>
     </summary>
-
         <ol>
             <li><a href="https://sraraujo.github.io/projetos/facil/calculadora-IMC/" target="_blank" rel="external">Calculadora de IMC</a>
             <li><a href="https://sraraujo.github.io/projetos/facil/impar-par/" target="_blank" rel="external">Jogo Par ou Ímpar</a>
