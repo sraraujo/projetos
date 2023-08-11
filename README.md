@@ -4,6 +4,7 @@
 
 <hr>
 
+<!-- Nível Fácil -->
 <details>
     <summary>
         <strong>Nível Fácil:</strong>
@@ -17,4 +18,20 @@
             <li><a href="https://sraraujo.github.io/javascript/aula014/ex02/index.html" target="_blank" rel="external">Projeto do Curso em Vídeo - (Verificador de Idade)</a>
             <li><a href="https://sraraujo.github.io/javascript/aula014/ex01/ex013.html">Projeto do Curso em Vídeo - (Verificador de Hora)</a>
         </ol>
+</details>
+
+<!-- Nível Médio -->
+<details>
+    <summary>
+        <strong>Nível Médio:</strong>
+    </summary>
+    ...
+</details>
+
+<!-- Nível Difícil -->
+<details>
+    <summary>
+        <strong>Nível Difícil:</strong>
+    </summary>
+    ...
 </details>
