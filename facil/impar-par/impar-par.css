@@ -35,7 +35,6 @@ p{
     text-align: center;
 
     display: flex;
-    justify-content: space-evenly;
 }
 
 section{
@@ -115,3 +114,11 @@ hr{
     text-align: center;
 }
 
+.m-lr{
+    margin-left: 20px;
+    margin-right: 4px;
+}
+
+.p-botao-c{
+    justify-content: space-evenly;
+}

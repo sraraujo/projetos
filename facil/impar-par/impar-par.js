@@ -7,10 +7,10 @@ function jogar(){
     var escolha = document.getElementsByName('impar-par')
     
     if( numero.value.length == 0){
-        alert('[ ERRO ] - Você deve escolherum número entre (1 e 10)')
+        alert('[ ERRO ] - Você deve escolher um número entre (1 e 10)')
     
     }else if (numero.value > 10 || numero.value < 0){
-        alert('[ ERRO ] - Digite um número que esteja entre 0 e 10 apenas!')
+        alert('[ ERRO ] - Digite um número que esteja entre (1 e 10)')
     
     }else{
         numero_meu = Number(numero.value)
