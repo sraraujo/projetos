@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo pedra Papel Tesoura</title>
+
+    <!-- FAVICON -->
+    <link rel="shortcut icon" type="image/x-icon" href="favicon/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <!-- CSS -->
+    <link rel="stylesheet" href="pedra-papel-tesoura.css">
+</head>
+<body>
+    <h1>Pedra - Papel - Tesoura</h1>
+
+    <section>
+        
+        <h3>Faça sua escolha:</h3>
+
+        <div>
+            <p class="mg-c">
+                <input type="radio" name="ppt" id="pedra" checked>
+                <label for="pedra">Pedra</label>
+            </p>
+    
+            <p class="mg-c">
+                <input type="radio" name="ppt" id="papel">
+                <label for="papel">Papel</label>
+            </p>
+    
+            <p class="mg-c">
+                <input type="radio" name="ppt" id="tesoura">
+                <label for="tesoura">Tesoura</label>
+            </p>
+        </div>
+
+        <p id="p-botao">
+            <input type="submit" value="Jogar" id="botao-jogar" onclick="jogar()">
+        </p>
+
+        <p id="resposta">
+        </p>
+
+    </section>
+
+    
+
+    <footer><a href="https://sraraujo.github.io/redes-sociais/" target="_blank" rel="external">&copy; Dev Jota Pereira</a></footer>
+
+    <script src="pedra-papel-tesoura.js"></script>
+    
+</body>
+</html>
