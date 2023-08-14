@@ -15,13 +15,13 @@
     <link rel="stylesheet" href="pedra-papel-tesoura.css">
 </head>
 <body>
-    <h1>Pedra - Papel - Tesoura</h1>
+    <h1>Pedra(✊🏼) - Papel(👋🏼) - Tesoura(✂️)</h1>
 
     <section>
         
         <h3>Faça sua escolha:</h3>
 
-        <div>
+        <div id="opcao">
             <p class="mg-c">
                 <input type="radio" name="ppt" id="pedra" checked>
                 <label for="pedra">Pedra</label>
@@ -39,15 +39,14 @@
         </div>
 
         <p id="p-botao">
-            <input type="submit" value="Jogar" id="botao-jogar" onclick="jogar()">
+            <input type="submit" value="Jogar" class="botao-jogar" onclick="jogar()">
+            <button type="reset" class="botao-jogar" onclick="limpar()">Limpar</button>
         </p>
 
-        <p id="resposta">
-        </p>
+        <div id="resposta">
+        </div>
 
-    </section>
-
-    
+    </section>   
 
     <footer><a href="https://sraraujo.github.io/redes-sociais/" target="_blank" rel="external">&copy; Dev Jota Pereira</a></footer>
 

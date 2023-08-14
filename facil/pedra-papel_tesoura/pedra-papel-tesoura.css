@@ -27,7 +27,7 @@ h3{
     margin-bottom: 10px;
 }
 
-div{
+div#opcao{
     max-width: 80px;
     margin: auto;
 }
@@ -43,10 +43,10 @@ section{
 }
 
 #p-botao{
-    text-align: center;
+    display: flex;
 }
 
-#botao-jogar{
+.botao-jogar{
     padding: 5px 10px;
     margin: 20px auto 10px auto;
 
@@ -55,19 +55,44 @@ section{
     box-shadow: 5px 5px 5px #0000003e;
 }
 
-#botao-jogar:hover{
+.botao-jogar:hover{
     background-color: #0080007d;
 }
 
-#botao-jogar:active{
+.botao-jogar:active{
     background-color: hsl(120, 100%, 25%);
+}
+
+div#resposta{
+    text-align: center;
+
+    width: 200px;
+    margin: 10px auto;
+}
+
+hr{
+    margin: 10px;
+}
+
+#vermelho{
+    color: red;
+}
+
+#verde{
+    color: green;
+}
+
+#laranja{
+    color: orange;
+}
+#verde, #vermelho, #laranja{
+    margin-top: 10px;
 }
 
 footer{
     text-align: center;
     font-style: italic;
     margin-top: 10px;
-    
 }
 
 a{
