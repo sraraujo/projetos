@@ -12,6 +12,7 @@
         <ol>
             <li><a href="https://sraraujo.github.io/projetos/facil/calculadora-IMC/" target="_blank" rel="external">Calculadora de IMC</a>
             <li><a href="https://sraraujo.github.io/projetos/facil/impar-par/" target="_blank" rel="external">Jogo Par ou Ímpar</a>
+            <li><a href="https://sraraujo.github.io/projetos/facil/pedra-papel-tesoura/" targt="_blank" rel="external">Jogo Pedra - Papel - Tesoura</a>
             <li><a href="https://sraraujo.github.io/redes-sociais/" target="_blank" rel="external">Projeto do Curso em Vídeo - (Redes Sociais)</a>
             <li><a href="https://sraraujo.github.io/projeto-android/#" target="_blank" rel="external">Projeto do Curso em Vídeo - (Site do Projeto Android)</a>
             <li><a href="https://sraraujo.github.io/projeto-cordel/" target="_blank" rel="external">Projeto do Curso em Vídeo - (Projeto Cordel Moderno)</a>
