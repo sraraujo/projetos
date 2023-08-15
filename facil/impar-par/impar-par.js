@@ -17,36 +17,41 @@ function jogar(){
         var numero_skynet = sortear_numero()
         var media = (numero_meu + numero_skynet) % 2
 
+        resposta.innerHTML = `<hr>`
+
         // escolha sendo PAR - a mádia dando "zero" significa que a soma dos números é um número par, logo, eu ganho
         if (escolha[0].checked && media == 0){
             vitoria += 1
-            resposta.innerHTML = `Eu venci: ${numero_meu} + ${numero_skynet} = ${numero_meu + numero_skynet} PAR`
+            resposta.innerHTML += `${numero_meu} + ${numero_skynet} = ${numero_meu + numero_skynet} PAR`
+            resposta.innerHTML += `<p id="verde" class="resultado">Eu venci</p>`
         
         // escolha sendo PAR - a média dando "um", significa que a soma dos números deu um números ímpar, logo, perdi
         }else if (escolha[0].checked && media == 1){
             derrota += 1
-            resposta.innerHTML = `Eu perdi: ${numero_meu} + ${numero_skynet} = ${numero_meu + numero_skynet} ÍMPAR`
+            resposta.innerHTML += `${numero_meu} + ${numero_skynet} = ${numero_meu + numero_skynet} ÍMPAR`
+            resposta.innerHTML += `<p id="vermelho" class="resultado">Eu perdi</p>`
         
         // escolha sendo ÍMPAR - a mádia dando "um" significa que a soma dos números é um número ímpar, logo, eu ganho
         }else if (escolha[1].checked && media  == 1){
             vitoria += 1
-            resposta.innerHTML = `Eu venci: ${numero_meu} + ${numero_skynet} = ${numero_meu + numero_skynet} ÍMPAR`
+            resposta.innerHTML += `${numero_meu} + ${numero_skynet} = ${numero_meu + numero_skynet} ÍMPAR`
+            resposta.innerHTML += `<p id="verde" class="resultado">Eu venci</p>`
         
         // escolha sendo ÍMPAR - a média dando "zero", significa que a soma dos números deu um números par, logo, perdi
         } else if (escolha[1].checked && media == 0){
             derrota += 1
-            resposta.innerHTML = `Eu perdi: ${numero_meu} + ${numero_skynet} = ${numero_meu + numero_skynet} PAR`
+            resposta.innerHTML += `${numero_meu} + ${numero_skynet} = ${numero_meu + numero_skynet} PAR`
+            resposta.innerHTML += `<p id="vermelho" class="resultado">Eu perdi</p>`
         }
         
         resposta.innerHTML += `<hr><span id="azul">Vitória ${vitoria}</span> x <span id="vermelho">${derrota} Derrota</span>`
     }
-
 }
 
 function limpar(){
     vitoria = 0
     derrota = 0
-    numero = ''
+    numero.value = ''
     resposta.innerHTML = ""
 }
 

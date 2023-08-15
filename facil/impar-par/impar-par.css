@@ -80,7 +80,6 @@ section{
     margin: 30px auto 10px auto;
 }
 
-
 a{
     color: white;
     font-style: italic;
@@ -100,6 +99,14 @@ a:active{
 
 hr{
     margin: 8px 0;
+}
+
+p.resultado{
+    justify-content: center;
+}
+
+#verde{
+    color: green;
 }
 
 #azul{
