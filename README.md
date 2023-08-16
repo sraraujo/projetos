@@ -29,7 +29,7 @@
         <strong>Nível Médio:</strong>
     </summary>
     ...
-    <p>Está em processo...</p>
+    <p>Em construção</p>
 </details>
 
 <!-- Nível Difícil -->
@@ -38,5 +38,5 @@
         <strong>Nível Difícil:</strong>
     </summary>
     ...
-    <p>Está em processo...</p>
+    <p>Em construção</p>
 </details>
