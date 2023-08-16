@@ -23,6 +23,7 @@
         </ol>
 </details>
 
+<hr>
 <!-- Nível Médio -->
 <details>
     <summary>
@@ -32,6 +33,7 @@
     <p>Em construção</p>
 </details>
 
+<hr>
 <!-- Nível Difícil -->
 <details>
     <summary>
