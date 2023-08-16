@@ -3,9 +3,7 @@
 <hr>
 <!-- Nível Fácil -->
 <details>
-    <summary>
-        <strong>Nível Fácil:</strong>
-    </summary>
+    <summary><strong>Nível Fácil:</strong></summary>
         <ol>
             <li><a href="https://sraraujo.github.io/projetos/facil/calculadora-IMC/" target="_blank" rel="external">Calculadora de IMC</a>
             <li><a href="https://sraraujo.github.io/projetos/facil/relogio-digital/" rel="external">Relógio Digital</a>
@@ -14,7 +12,7 @@
             <li><a href="https://sraraujo.github.io/projeto-android/#" target="_blank" rel="external">Projeto do Curso em Vídeo - (Site do Projeto Android)</a>
             <li><a href="https://sraraujo.github.io/projeto-cordel/" target="_blank" rel="external">Projeto do Curso em Vídeo - (Projeto Cordel Moderno)</a>
             <li><a href="https://sraraujo.github.io/redes-sociais/" target="_blank" rel="external">Projeto do Curso em Vídeo - (Redes Sociais)</a>
-            <li><a href="https://sraraujo.github.io/javascript/aula014/ex01/ex013.html">Projeto do Curso em Vídeo - (Verificador de Hora)</a>
+            <li><a href="https://sraraujo.github.io/javascript/aula014/ex01/ex013.html" target="_blank" rel="external">Projeto do Curso em Vídeo - (Verificador de Hora)</a>
             <li><a href="https://sraraujo.github.io/javascript/aula014/ex02/index.html" target="_blank" rel="external">Projeto do Curso em Vídeo - (Verificador de Idade)</a>
             <li><a href="https://sraraujo.github.io/javascript/aula017/index.html" target="_blank" rel="external">Projeto do Curso em Vídeo - (Analisador de Números)</a>
         </ol>
