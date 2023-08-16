@@ -28,7 +28,7 @@
     <summary>
         <strong>Nível Médio:</strong>
     </summary>
-    <p>Está em processo...</p>p
+    <p>Está em processo...</p>
     ...
 </details>
 
@@ -37,6 +37,6 @@
     <summary>
         <strong>Nível Difícil:</strong>
     </summary>
-    ...
     <p>Está em processo...</p>
+    ...
 </details>
