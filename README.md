@@ -1,4 +1,4 @@
-<p>Repositório criado para treinar/testar minhas habilidades adquiras no "Curo em Vídeo" e de outros meios, o repositório terá 3 níveis: fácil, médio e difícil. Esses testes me fará perceber quais assuntos eu aprendi e já domino, e quais eu preciso treinar mais. E assim seguir progredindo nos meus estudos.</p>
+<p>Repositório criado para treinar/testar minhas habilidades adquiras no curso de HTML% e CCS3 e javaScript do "Curo em Vídeo" e de outras plataformas, o repositório terá 3 níveis: fácil, médio e difícil. Esses testes me fará perceber quais assuntos eu aprendi e já domino com mais facilidade, e quais eu preciso treinar mais. E assim seguir progredindo nos meus estudos.</p>
 
 <hr>
 <!-- Nível Fácil -->
