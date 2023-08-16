@@ -19,7 +19,7 @@
             <li><a href="https://sraraujo.github.io/redes-sociais/" target="_blank" rel="external">Projeto do Curso em Vídeo - (Redes Sociais)</a>
             <li><a href="https://sraraujo.github.io/javascript/aula014/ex01/ex013.html">Projeto do Curso em Vídeo - (Verificador de Hora)</a>
             <li><a href="https://sraraujo.github.io/javascript/aula014/ex02/index.html" target="_blank" rel="external">Projeto do Curso em Vídeo - (Verificador de Idade)</a>
-            <li><a href="https://sraraujo.github.io/javascript/aula017/index.html" target="_blank" rel="external">Projeto do Curso em Vídeo - (Analisador de Números)
+            <li><a href="https://sraraujo.github.io/javascript/aula017/index.html" target="_blank" rel="external">Projeto do Curso em Vídeo - (Analisador de Números)</a>
         </ol>
 </details>
 
@@ -28,8 +28,8 @@
     <summary>
         <strong>Nível Médio:</strong>
     </summary>
-    <p>Está em processo...</p>
     ...
+    <p>Está em processo...</p>
 </details>
 
 <!-- Nível Difícil -->
@@ -37,6 +37,6 @@
     <summary>
         <strong>Nível Difícil:</strong>
     </summary>
-    <p>Está em processo...</p>
     ...
+    <p>Está em processo...</p>
 </details>
