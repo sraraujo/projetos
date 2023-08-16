@@ -1,0 +1,87 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "ds-digital";
+    src: url("fonte/DS-DIGIT.TTF");
+}
+
+*{
+    font-family: "ds-digital";
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #000000;
+}
+
+header{
+    height: 15vh;
+    padding-top: 20px;
+}
+
+h1{
+    font-size: 4rem;
+    text-align: center;
+
+    color: #ffffff;
+}
+
+section{
+    height: 80vh;
+}
+
+div{
+    max-width: 600px;
+    height: auto;
+    margin: auto;
+
+    border-radius: 20px;
+
+}
+
+div > p#p-relogio{
+    font-size: 10em;
+    text-align: center;
+
+    color: #ff0000;
+    
+    padding: 10px;
+}
+
+footer{
+    text-align: center;
+    height: 5vh;
+}
+
+a{
+    color: #ffffff;
+    text-decoration: none;
+    font-style: italic;
+}
+
+a:hover{
+    color: #ffff00;
+    text-decoration: underline;
+}
+
+a:active{
+    color: #ff0000;
+}
+
+@media screen and (max-width: 600px) {
+
+    h1{
+        font-size: 2rem;
+    }
+
+    section{
+        height: 70vh;
+    }
+
+    div > p#p-relogio{
+        font-size: 4em;
+    }
+}
