@@ -6,8 +6,7 @@
 }
 
 *{
-    font-family: "ds-digital";
-
+    font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -29,6 +28,13 @@ h1{
     color: #ffffff;
 }
 
+hr{
+    width: 600px;
+    margin: auto;
+
+    margin-top: 10px;
+}
+
 section{
     height: 80vh;
 }
@@ -39,16 +45,25 @@ div{
     margin: auto;
 
     border-radius: 20px;
-
 }
 
 div > p#p-relogio{
+    font-family: "ds-digital";
     font-size: 10em;
     text-align: center;
 
     color: #ff0000;
     
     padding: 10px;
+}
+
+div p#data-completa{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+
+    color: #ffffff; 
 }
 
 footer{
@@ -83,5 +98,11 @@ a:active{
 
     div > p#p-relogio{
         font-size: 4em;
+        margin: 0;
+        padding: 0;
+    }
+
+    div p#data-completa{
+        font-size: 18px;
     }
 }
