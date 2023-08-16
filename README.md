@@ -19,30 +19,3 @@
             <li><a href="https://sraraujo.github.io/javascript/aula017/index.html" target="_blank" rel="external">Projeto do Curso em Vídeo - (Analisador de Números)</a>
         </ol>
 </details>
-
-<!-- 
-
-<hr>
-<!-- Nível Médio -->
-<details>
-    <summary>
-        <strong>Nível Médio:</strong>
-    </summary>
-    <ol>
-        <li>Projeto em Construção
-    </ol>
-    
-</details>
-
-<hr>
-<!-- Nível Difícil -->
-<details>
-    <summary>
-        <strong>Nível Difícil:</strong>
-    </summary>
-    <ol>
-        <li>Projeto em Construção
-    </ol>
-</details>
-
--->
