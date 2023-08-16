@@ -27,8 +27,11 @@
     <summary>
         <strong>Nível Médio:</strong>
     </summary>
-    ...
-    <p>Em construção</p>
+    
+    <ol>
+        <li>
+    </ol>
+    
 </details>
 
 <hr>
@@ -37,6 +40,9 @@
     <summary>
         <strong>Nível Difícil:</strong>
     </summary>
-    ...
-    <p>Em construção</p>
+    
+    <ol>
+        <li>
+    </ol>
+    
 </details>
