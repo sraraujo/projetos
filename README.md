@@ -1,7 +1,6 @@
 <p>Repositório criado para treinar/testar minhas habilidades adquiras no "Curo em Vídeo" e de outros meios, o repositório terá 3 níveis: fácil, médio e difícil. Esses testes me fará perceber quais assuntos eu aprendi e já domino, e quais eu preciso treinar mais. E assim seguir progredindo nos meus estudos.</p>
 
 <hr>
-
 <!-- Nível Fácil -->
 <details>
     <summary>
@@ -27,7 +26,6 @@
     <summary>
         <strong>Nível Médio:</strong>
     </summary>
-    
     <ol>
         <li>Projeto em Construção
     </ol>
@@ -40,9 +38,7 @@
     <summary>
         <strong>Nível Difícil:</strong>
     </summary>
-    
     <ol>
         <li>Projeto em Construção
     </ol>
-    
 </details>
