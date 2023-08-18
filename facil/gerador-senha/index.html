@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de Senha</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="estilo/style.css">
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+</head>
+<body>
+
+    <header>
+        <h1>GERADOR DE SENHA <span>v.1</span></h1>
+    </header>
+
+    <section>
+        <h2 class="mg-t">Senha de quantos digitos?</h2>
+        <p>
+            <label for="digitos"></label>
+            <input type="number" name="" placeholder="Min. 8 digitos - Max (99) digitos" id="digitos" required maxlength="2">
+        </p>
+
+        <h2>Senha formada por:</h2>
+        
+        <div class="mg-c">
+            <p class="formato">
+                <input type="radio" name="nlm" id="numeros" checked>
+                <label for="numeros">Apenas Números</label>
+            </p>
+    
+            <p class="formato">
+                <input type="radio" name="nlm" id="letras">
+                <label for="letras">Apenas Letras</label>
+            </p>
+            
+            <p class="formato">
+                <input type="radio" name="nlm" id="num-letras">
+                <label for="num-letras">Números e Letras</label>
+            </p>
+
+        </div>
+
+        <input type="submit" value="GERAR SENHA" id="botao" onclick="gerandoSenha()">
+        
+        <textarea id="resposta">Preencha os dados acima e gere sua SENHA aleatória aqui!</textarea>
+        
+    </section>
+
+    <footer>
+        <a href="https://sraraujo.github.io/redes-sociais/" target="_blank" rel="external">&copy; Dev Jota Pereira</a>
+    </footer>
+
+    <script src="javascript/gerador-senha.js"></script>
+    
+</body>
+</html>
