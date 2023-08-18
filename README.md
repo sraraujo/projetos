@@ -6,6 +6,7 @@
 <ol>
     <li><a href="https://sraraujo.github.io/projetos/facil/calculadora-IMC/" target="_blank" rel="external">Calculadora de IMC</a></li>
     <li><a href="https://sraraujo.github.io/projetos/facil/relogio-digital/" target="_blank" rel="external">Relógio Digital</a></li>
+    <li><a href="https://sraraujo.github.io/projetos/facil/gerador-senha" target="_blank" rel="external">Gerador de Senha</a></li>
     <li><a href="https://sraraujo.github.io/projetos/facil/impar-par/" target="_blank" rel="external">Jogo: Par ou Ímpar</a></li>
     <li><a href="https://sraraujo.github.io/projetos/facil/pedra-papel-tesoura/" target="_blank" rel="external">Jogo: Pedra - Papel - Tesoura</a></li>
     <li><a href="https://sraraujo.github.io/projeto-android/#" target="_blank" rel="external">Projeto do Curso em Vídeo - (Site do Projeto Android)</a></li>
