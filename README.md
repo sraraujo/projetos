@@ -15,5 +15,3 @@
     <li><a href="https://sraraujo.github.io/javascript/aula014/ex02/index.html" target="_blank" rel="external">Projeto do Curso em Vídeo - (Verificador de Idade)</a></li>
     <li><a href="https://sraraujo.github.io/javascript/aula017/index.html" target="_blank" rel="external">Projeto do Curso em Vídeo - (Analisador de Números)</a></li>
 </ol>
-
-<hr>
