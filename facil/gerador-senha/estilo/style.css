@@ -13,7 +13,7 @@
 
 body{
     background-color: burlywood;
-    background-image: url("../imagens/imagem001.png");
+    background-image: url("../imagens/imagem004.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -23,12 +23,12 @@ body{
 h1{
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    color: white;
+    color: #ffffff;
     margin: 30px auto;
     padding: 20px 10px;
 
     width: auto;
-    background-color: black;
+    background-color: #000000;
 }
 
 span{
@@ -101,7 +101,7 @@ textarea#resposta{
     margin: 20px auto;
     
     border-radius: 15px;
-    background-color: lightblue;
+    background-color: lightgreen;
 }
 
 footer{
