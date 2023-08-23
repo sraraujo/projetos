@@ -1,0 +1,16 @@
+// Sites de imagens grátis
+
+unsplash
+pexels
+freepik
+rawpixel
+pxabay
+libreshot
+wikimedia commons
+
+
+// Sites para criar favicon
+
+favicon.io
+IconArchive
+favixon.cc
