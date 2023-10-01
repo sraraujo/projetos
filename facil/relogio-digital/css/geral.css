@@ -27,7 +27,7 @@ h1{
 }
 
 main{
-    height: 70vh;
+    height: 65vh;
 }
 
 div#resultado{
@@ -59,7 +59,7 @@ div > p#data-completa{
 
 footer{
     text-align: center;
-    height: 5vh;
+    padding: 10px;
 }
 
 a{
