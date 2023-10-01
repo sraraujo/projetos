@@ -14,7 +14,7 @@
     <li><a href="https://sraraujo.github.io/projetos/facil/pedra-papel-tesoura/" target="_blank" rel="external">Jogo: Pedra - Papel - Tesoura</a></li>
     <li><a href="https://sraraujo.github.io/jamaica/" target="_blank" rel="external">Site temático: Jamaica</a></li>
     <li>Projetos do Curso em Vídeo:</li>
-    <ul>
+    <ol>
         <li><a href="https://sraraujo.github.io/projeto-android/#" target="_blank" rel="external">Site do Projeto Android</a></li>
         <li><a href="https://sraraujo.github.io/projeto-cordel/" target="_blank" rel="external">Projeto Cordel Moderno</a></li>
         <li><a href="https://sraraujo.github.io/redes-sociais/" target="_blank" rel="external">Redes Sociais</a></li>
@@ -22,5 +22,5 @@
         <li><a href="https://sraraujo.github.io/javascript/aula014/ex02/index.html" target="_blank" rel="external">Verificador de Idade</a></li>
         <li><a href="https://sraraujo.github.io/javascript/aula017/index.html" target="_blank" rel="external">Analisador de Números</a></li>
         <li><a href="https://sraraujo.github.io/projeto-login/" target="_blank">Projeto Tela de Login</a></li>
-    </ul>
+    </ol>
 </ol>
