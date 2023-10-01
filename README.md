@@ -1,4 +1,7 @@
-<p>Repositório criado para treinar/testar minhas habilidades adquiras no curso de HTML5 e CCS3, e javaScript do "Curo em Vídeo" e de outras plataformas, o repositório terá 3 níveis: fácil, médio e difícil. Esses testes me fará perceber quais assuntos eu aprendi e já domino com mais facilidade, e quais eu preciso treinar mais. E assim seguir progredindo nos meus estudos.</p>
+<h2>Hey, Jonas Pereira aqui!</h2>
+
+<p>Esse repositório foi criado para exercitar meus conhecimentos adquiridos, até aqui, na minha jornada para me tornar um desenvolvedor front-end, as linguagens utilizadas nesses projetos são: HTML5, CSS3 e JavaScript.</p>
+
 
 <!-- Nível Fácil -->
 <hr>
@@ -9,6 +12,8 @@
     <li><a href="https://sraraujo.github.io/projetos/facil/gerador-senha" target="_blank" rel="external">Gerador de Senha</a></li>
     <li><a href="https://sraraujo.github.io/projetos/facil/impar-par/" target="_blank" rel="external">Jogo: Par ou Ímpar</a></li>
     <li><a href="https://sraraujo.github.io/projetos/facil/pedra-papel-tesoura/" target="_blank" rel="external">Jogo: Pedra - Papel - Tesoura</a></li>
+    <li><a href="https://sraraujo.github.io/jamaica/" target="_blank" rel="external">Site temático: Jamaica</li>
+    </a>
     <li><a href="https://sraraujo.github.io/projeto-android/#" target="_blank" rel="external">Projeto do Curso em Vídeo - Site do Projeto Android</a></li>
     <li><a href="https://sraraujo.github.io/projeto-cordel/" target="_blank" rel="external">Projeto do Curso em Vídeo - Projeto Cordel Moderno</a></li>
     <li><a href="https://sraraujo.github.io/redes-sociais/" target="_blank" rel="external">Projeto do Curso em Vídeo - Redes Sociais</a></li>
