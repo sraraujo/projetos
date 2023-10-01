@@ -32,10 +32,10 @@ div#opcao{
     margin: auto;
 }
 
-section{
-    max-width: 250px;
+main{
+    width: 250px;
     margin: auto;
-    padding: 20px;
+    padding: 20px 10px 10px 10px;
     background-color: #ffffff;
 
     border-radius: 15px;
