@@ -80,6 +80,10 @@ section{
     margin: 30px auto 10px auto;
 }
 
+footer{
+    color: white;
+}
+
 a{
     color: white;
     font-style: italic;
