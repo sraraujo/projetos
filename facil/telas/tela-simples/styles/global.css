@@ -23,30 +23,31 @@ main{
     flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
+}
 
-    box-shadow: 5px 5px 5px black;
+div{
+    width: 380px;
 }
 
 div#tela-login{
-    width: 500px;
-    height: 500px;
+    height: 450px;
     position: relative;
-    padding-left: 40px;
+    padding: 0 40px;
 
     background-color: white;
 }
 
 div#tela-imagem{
-    width: 500px;
     height: 200px;
 }
 
 div#tela-login h1{
-    margin: 70px 0 30px;
+    margin: 50px 0 30px;
 }
 
 div#tela-login p{
-    font-size: 18px;
+    width: 100%;
+    font-size: 14px;
 }
 
 div#tela-login label{
@@ -94,7 +95,7 @@ p.text-center{
 button{
     color: white;
     font-size: 18px;
-    width: 90%;
+    width: 100%;
     height: 50px;
 
     margin-top: 30px;

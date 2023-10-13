@@ -17,6 +17,14 @@
         flex-direction: column;
     }
 
+    div#tela-login{
+        height: 500px;
+    }
+
+    div#tela-login p{
+        font-size: 18px;
+    }
+
     div#tela-imagem{
         height: 500px;
     }
