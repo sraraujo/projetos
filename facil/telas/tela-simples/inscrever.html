@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de inscrição</title>
+    <!-- CSS global -->
+    <link rel="stylesheet" href="styles/global.css">
+    <!-- MediaQueries -->
+    <link rel="stylesheet" href="styles/mediaQueris.css">
+    <!-- ssimbolo da imagem para email -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <!-- simbol da imagem para a senha -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <!-- Simbolo da pessoa-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+</head>
+<body onresize="trocarTelas()">
+
+    <main id="tela-total">
+        <div id="tela-login">
+            <form action="index.html" autocomplete="on">
+
+                <h1>Inscrever-se</h1>
+
+                <p>
+                    <label id="label-nome">
+                        <span class="material-symbols-outlined">person</span>
+                        <input type="text" name="nome" placeholder="Digite seu nome completo" required>
+                    </label>
+                </p>
+
+                <p>
+                    <label id="label-email">
+                        <span class="material-symbols-outlined">mail</span>
+                        <input type="email" name="email" placeholder="Digite seu Email@email.com" required>
+                    </label>
+                </p>
+
+                <p>
+                    <label id="label-senha">
+                        <span class="material-symbols-outlined">lock</span>
+                        <input type="password" name="senha" id="label-senha" placeholder="Digite sua senha" minlength="8" required>
+                    </label>
+                </p>
+
+                <button type="submit">Enviar</button>
+
+                <p class="text-center">Já tem uma conta? <a href="index.html">Conecte-se agora</a></p>
+            </form>
+        </div>
+
+        <div id="tela-imagem">
+            <h2>Complete sua jornada <br><span>Vamos começar</span></h2>
+            <picture>
+                <img src="imagens/teclado-mouse.jpg" alt="Foto de teclado e mouse">
+            </picture>
+        </div>
+
+    </main>
+
+    <script>
+        var tela = document.getElementById("tela-total")
+
+        if (window.innerWidth >= 1200){
+                tela.style.flexDirection = "row-reverse"
+        }
+
+    </script>
+    
+</body>
+</html>

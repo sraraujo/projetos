@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de login</title>
+    <!-- CSS global-->
+    <link rel="stylesheet" href="styles/global.css">
+    <!-- MediaQueris CSS-->
+    <link rel="stylesheet" href="styles/mediaQueris.css">
+    <!-- ssimbolo da imagem para email -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <!-- simbol da imagem para a senha -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <!-- 
+        Vídeo de inspiração para esse projeto:
+        https://www.youtube.com/watch?v=15TSX7wrxFg&list=WL&index=6&ab_channel=JohnPires-WebDev
+    -->
+</head>
+<body>
+    
+    <main>
+        <div id="tela-login">
+
+            <h1>Login</h1>
+
+            <form action="" autocomplete="on">
+                <p>
+                    <label id="label-email">
+                        <span class="material-symbols-outlined">mail</span>
+                        <input type="email" name="email" placeholder="Digite seu email@email.com" autocomplete="email" required>
+                    </label>
+                </p>
+
+                <p>
+                    <label id="label-senha">
+                        <span class="material-symbols-outlined">lock</span>
+                        <input type="password" name="senha" placeholder="Digite sua senha" autocomplete="current-password" minlength="8" required>
+                    </label>
+                </p>
+
+                <p><a href="recuperarSenha.html">Esqueceu a senha?</a></p>
+
+                <button type="submit">Enviar</button>
+
+                <p class="text-center">Não tem uma conta? <a href="inscrever.html" target="_top">Inscreva-se agora</a></p>
+            </form>
+
+        </div>
+
+        <div id="tela-imagem">
+            <h2>Cada novo amigo é uma <br> nova aventura <br> <span>vamos nos conectar!</span></h2>
+            <picture>
+                <img src="imagens/teclado-mouse.jpg" alt="Foto de teclado e mouse">
+            </picture>
+        </div>
+
+    </main>
+
+</body>
+</html>

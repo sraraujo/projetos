@@ -1,0 +1,24 @@
+@media screen and (min-width: 1200px) {
+    main{
+        width: 100vw;
+        height: 100vh;
+    
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    div{
+        width: 500px;
+        height: 500px;
+        
+        display: flex;
+        flex-direction: column;
+    }
+
+    div#tela-imagem{
+        height: 500px;
+    }
+    
+}
