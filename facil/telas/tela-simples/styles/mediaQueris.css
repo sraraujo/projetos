@@ -21,6 +21,10 @@
         height: 500px;
     }
 
+    div#tela-login h1{
+        margin: 50px 0;
+    }
+
     div#tela-login p{
         font-size: 18px;
     }

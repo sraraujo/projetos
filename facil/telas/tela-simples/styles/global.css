@@ -30,7 +30,7 @@ div{
 }
 
 div#tela-login{
-    height: 450px;
+    height: 400px;
     position: relative;
     padding: 0 40px;
 
@@ -42,7 +42,7 @@ div#tela-imagem{
 }
 
 div#tela-login h1{
-    margin: 50px 0 30px;
+    margin: 20px 0;
 }
 
 div#tela-login p{
