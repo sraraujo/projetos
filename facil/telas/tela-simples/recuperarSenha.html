@@ -15,7 +15,7 @@
     <!-- Simbolo da pessoa-->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 </head>
-<body onresize="">
+<body onresize="trocarTela()">
 
     <main id="tela-total">
         <div id="tela-login">
@@ -47,12 +47,13 @@
     </main>
 
     <script>
-        var tela = document.getElementById("tela-total")
+        function trocarTela(){
+            var tela = document.getElementById("tela-total")
 
-        if (window.innerWidth >= 1200){
-                tela.style.flexDirection = "row-reverse"
+            if (window.innerWidth >= 1200){
+                    tela.style.flexDirection = "row-reverse"
+            }
         }
-
     </script>
     
 </body>
