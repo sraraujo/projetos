@@ -36,5 +36,9 @@
     div#tela-imagem h2{
         font-size: 30px;
     }
+
+    div#tela-imagem span{
+        font: 16px;
+    }
     
 }

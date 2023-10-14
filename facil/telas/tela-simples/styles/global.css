@@ -38,7 +38,7 @@ div#tela-login{
 }
 
 div#tela-imagem{
-    height: 120px;
+    height: 150px;
 }
 
 div#tela-login h1{
@@ -140,7 +140,7 @@ div#tela-imagem h2{
     color: white;
     font-weight: bold;
 
-    font-size: 24px;
+    font-size: 26px;
     height: 100%;
     line-height: 30px;
     display: flex;
@@ -151,5 +151,5 @@ div#tela-imagem h2{
 }
 
 div#tela-imagem span{
-    font-size: 16px;
+    font-size: 14px;
 }
