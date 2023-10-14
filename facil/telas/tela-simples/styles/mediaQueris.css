@@ -32,5 +32,9 @@
     div#tela-imagem{
         height: 500px;
     }
+
+    div#tela-imagem h2{
+        font-size: 30px;
+    }
     
 }
