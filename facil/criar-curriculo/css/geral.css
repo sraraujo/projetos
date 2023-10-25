@@ -13,18 +13,13 @@ body{
 }
 
 main{
-    width: 300px;
+    width: 260px;
     padding: 20px;
     margin: 20px auto;
     
     border-radius: 15px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.431);
     background-color: white;
-}
-
-form{
-    width: 96%;
-    margin: 0 auto;
 }
 
 #nome-destaque{
