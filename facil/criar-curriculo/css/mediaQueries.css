@@ -5,7 +5,7 @@
     }
 
     main{
-        width: 450px;
+        width: 480px;
     }
 
     p{
@@ -22,6 +22,10 @@
 
     main{
         width: 570px;
+    }
+
+    form{
+        width: 100%;
     }
 
     input{

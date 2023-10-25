@@ -22,6 +22,11 @@ main{
     background-color: white;
 }
 
+form{
+    width: 96%;
+    margin: 0 auto;
+}
+
 #nome-destaque{
     font-size: 14px;
     text-align: center;
