@@ -1,0 +1,150 @@
+/* ajuste no LEGEND */
+@media screen and (min-width: 400px) {
+    #nome-destaque{
+        font-size: 21px;
+    }
+
+    main{
+        width: 450px;
+    }
+
+    p{
+        font-size: 12px;
+    }
+}
+
+/* Telas de tablet */
+@media screen and (min-width: 768px) {
+    #nome-destaque{
+        text-align: left;
+        font-size: 26px;
+    }
+
+    main{
+        width: 570px;
+    }
+
+    input{
+        font-size: 14px;
+    }
+
+    legend{
+        text-align: left;
+        margin: 0 10px;
+        padding: 0 5px;
+    }
+
+    p{
+        font-size: 14px;
+    }
+}
+
+/* Telas de computador */
+@media screen and (min-width: 992px) {
+    #nome-destaque{
+        font-size: 28px;
+    }
+
+    main{
+        width: 620px;
+    }
+}
+
+/* Telas grandes */
+@media screen and (min-width: 1200px) {
+    #nome-destaque{
+        font-size: 28px;
+    }
+
+    label{
+        font-size: 14px;
+    }
+
+    input{
+        font-size: 14px;
+    }
+
+    .dados-pessoais{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .esquerda > input{
+        width: 45%;
+    }
+
+    .direita > input{
+        width: 55%;
+    }
+
+    .inputLargo{
+        width: 73%;
+    }
+}
+
+@media print {
+
+    #nome-destaque{
+        text-align: left;
+        font-size: 32px;
+    }
+
+    main{
+        width: 100vw;
+        margin: 0 auto;
+        box-shadow: none;
+    }
+
+    article{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    article > div > picture:empty > img{
+        display: none;
+    }
+
+    .file-button{
+        display: none;
+    }
+
+    legend{
+        text-align: left;
+        margin: 0 10px;
+        padding: 0 5px;
+    }
+
+    .dados-pessoais{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .esquerda > input{
+        width: 40%;
+    }
+
+    .direita > input{
+        width: 50%;
+    }
+
+    p{
+        font-size: 13px;
+    }
+
+    #adicionar{
+        display: none;
+    }
+
+    .trabalho{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    a{
+        display: none;
+    }
+
+    button{
+        display: none;
+    }
+}

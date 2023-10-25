@@ -1,0 +1,210 @@
+@charset "UTF-8";
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: gray;
+}
+
+main{
+    width: 340px;
+    padding: 20px;
+    margin: 20px auto;
+    
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.431);
+    background-color: white;
+}
+
+#nome-destaque{
+    font-size: 14px;
+    text-align: center;
+    font-weight: bold;
+    font-variant: small-caps;
+    
+    width: 100%;
+    display: block;
+    margin: auto;
+
+}
+
+div:empty{
+    display: none;
+}
+
+label{
+    font-weight: bold;
+}
+
+input{
+    padding: 1px 5px;
+    border: 0;
+    outline: 0;
+}
+
+input:focus{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.361);
+}
+
+.file-chooser{
+    display: none;
+}
+
+.file-button{
+    padding: 3px 0;
+}
+
+select{
+    border: none;
+}
+
+.div-espaco{
+    padding: 5px 0;
+}
+
+article{
+    display: flex;
+}
+
+#dados{
+    width: 450px;
+}
+
+#foto{
+    display: block;
+    margin: auto;
+}
+
+article > div > picture > img{
+    width: 70px;
+    height: 80px;
+
+    display: flex;
+    margin: auto;
+    object-fit: cover;
+
+    border: none;
+}
+
+.file-button{
+    display: block;
+    margin: auto;
+    width: 100px;
+}
+
+.file-button:hover{
+    background-color: green;
+}
+
+p{
+    font-size: 14px;
+    text-align: justify;
+    padding: 3px 10px 3px 14px;
+}
+
+#texto-editavel{
+    text-indent: 20px;
+    line-height: 20px;
+}
+
+#objetivos{
+    text-indent: 20px;
+}
+
+p::selection, strong::selection, a::selection{
+    background-color: lightcoral;
+}
+
+fieldset{
+    margin: 15px auto;
+    border-radius: 8px;   
+
+    border:  2px solid rgba(0, 0, 0, 0.615);
+}
+
+fieldset:empty{
+    display: none;
+}
+
+legend{
+    color: rgb(2, 70, 107);
+    text-align: center;
+    font-weight: bold;
+    padding: 0 10px;
+}
+
+#dados-academicos{
+    display: block;
+    flex-direction: row;
+}
+
+.formaçao-escolar{
+    width: 100%;
+    display: block;
+}
+
+#curso-superior{
+    width: 400px;
+}
+
+#adicionar{
+    font-size: 12px;
+
+    width: 180px;
+    display: block;
+}
+
+.trabalho{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.inputLargo{
+    width: 75%;
+}
+
+a{
+    color: rgb(213, 138, 0);
+    font-weight: bold;
+    margin-left: 13px;
+}
+
+a:hover{
+    color: rgb(6, 121, 33);
+    text-decoration: underline;
+}
+
+a:active{
+    color: red;
+}
+
+button{
+    color: white;
+    font-weight: bold;
+
+    display: flex;
+    align-items: center;
+    padding: 7px 10px;
+    margin: auto;
+    
+    border: 1px solid rgba(0, 0, 0, 0.423);
+    border-radius: 5px;
+    background-color: green;
+}
+
+button:hover{
+    color: red;
+    text-decoration: underline;
+    background-color: yellow;
+}
+
+button:active{
+    color: yellow ;
+    background-color: red;
+}

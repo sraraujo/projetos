@@ -1,0 +1,214 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo</title>
+    <!-- CSS Geral-->
+    <link rel="stylesheet" href="css/geral.css">
+    <!-- CSS Media Queries -->
+    <link rel="stylesheet" href="css/mediaQueries.css">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+</head>
+<body onload="dicas()">
+    
+    <main>
+
+        <form action="" method='post' autocomplete="on">
+            <input type="text" placeholder="Digite Nome Completo" autocomplete="name" id="nome-destaque">
+            
+            <article>
+
+                <div id="dados" contenteditable="true">
+                    <p>
+                        <label for="ibairro">Bairro: </label>
+                        <input type="text" name="bairro" id="ibairro" autocomplete="street-address" placeholder="endereço completo">
+                    </p>
+
+                    <p>
+                        <label for="icep">CEP: </label>
+                        <input type="number" name="CEP" id="icep" placeholder="Digite seu cep">
+                    </p>
+
+                    <p>
+                        <label for="icontato1">Contato 1: </label>
+                        <input type="text" name="contato" id="icontato1" placeholder="Digite seu contato 1">
+                    </p>
+
+                    <p>
+                        <label for="icontato2">Contato 2: </label>
+                        <input type="text" name="contato" id="icontato2" placeholder="Digite seu cpontato 2">
+                    </p>
+                </div>
+
+                <div id="foto">
+                    <picture id="area-foto">
+                        <!--<img class="preview-img"> -->
+                    </picture>
+                    
+                    <input class="file-chooser" type="file" accept="image/*">
+                    <input class="file-button" type="button" value="Inserir foto">
+                </div>
+
+            </article>  
+            
+            <fieldset contenteditable="true">
+                <legend>Dados Pessoais</legend>
+
+                <div class="dados-pessoais div-espaco" >
+                    <section>
+                        <p class="esquerda">
+                            <label for="iidade">Idade: </label>
+                            <input type="text" name="idade" id="iidade" placeholder="Digite sua idade" class="idados-pessoais">
+                        </p>
+
+                        <p class="esquerda">
+                            <label for="estado-civil">Estado Civil: </label>
+                            <input type="text" name="estado-civil" id="estado-civil" list="destado-civil" placeholder="Digite aqui">
+                            
+                            <datalist name="estado-civil" id="destado-civil">
+                                <option value="Escolha" disabled selected>--- Escolha ---</option>
+                                <option>Solteira(o)</option>
+                                <option>Casada(o)</option>
+                                <option>Separada(o)</option>
+                                <option>Divorciada(o)</option>
+                                <option>Viúva(o)</option>
+                            </datalist>
+                        </p>
+                    </section>
+
+                    <section >
+                        <p class="direita">
+                            <label for="inaturalidade">Naturalidade:</label>
+                            <input type="text" name="naturalidade" id="inaturalidade" placeholder="Local de nascimento" class="idados-pessoais">
+                        </p>
+
+                        <p class="direita">
+                            <label for="inacionalidade">Nacionalidade:</label>
+                            <input type="text" name="Nacionalidade" id="inacionalidade" placeholder="País de origem" class="idados-pessoais" list="nacionalidade">
+                            <datalist id="nacionalidade">
+                                <option>Brasileira(o)</option>
+                                <option>Estrangeira(o)</option>
+                            </datalist>
+                        </p>
+                    </section>
+                </div>
+                
+            </fieldset>
+
+            <fieldset contenteditable="true">
+                <legend>Experiência Profissional</legend>
+                
+                <div class="dados-pessoais trabalho">
+                    <div class="div-espaco" contenteditable="true">
+                        <p>
+                            <label for="iempresa">Empresa:</label> 
+                            <input type="text" name="empresa" id="iempresa" placeholder="Nome da empresa">
+                        </p>
+                        <p>
+                            <label for="icargo">Cargo:</label>
+                            <input type="text" name="cargo" id="icargo" placeholder="Digite o cargo">
+                        </p>
+                        <p>
+                            <label for="ilocal">Local:</label>
+                            <input type="text" name="Local" id="ilocal" placeholder="Digite o local/bairro">
+                        </p>
+                        <p>
+                            <label for="iperiodo">Período</label>
+                            <input type="text" name="periodo" id="iperiodo" placeholder="Tempo de serviço">
+                        </p>
+                    </div>
+                </div>
+
+                <aside>
+                    <div id="adicionar" class="div-espaco">
+                        <a onclick="adicionarTrabalho()">+Nova experiência</a>
+                    </div>
+                </aside>
+            </fieldset>
+
+            <fieldset contenteditable="true">
+                <legend>Objetivos / Interesses</legend>
+                
+                <div class="div-espaco">
+                    <p contenteditable="true" id="texto-editavel">
+                        Dar início/prosseguimento a minha carreira profissional, assim como também contribuir no processo de desenvolvimento da empresa, exercendo minhas funções da melhor forma possível, consciente dos direitos e deveres a serem cumpridos.
+                    </p>
+                </div>
+
+            </fieldset>
+
+            <fieldset contenteditable="true">
+                <legend>Formação Acadêmica & Escolar</legend>
+                
+                <div id="dados-academicos">
+                    <aside class="formaçao-escolar">
+                        <div id="curso-superior">
+                        </div>
+
+                        <div>
+                            <p>
+                                <label for="iescola">Escola:</label>
+                                <input type="text" name="escola" id="iescola" placeholder="Digite o nome da escola" class="inputLargo">
+                            </p>
+                    
+                            <p>
+                                <label for="inivel">Nível:</label>
+                                <input type="text" name="escola" id="inivel" placeholder="Fundamental / médio" class="inputLargo">
+                            </p>
+                        </div>
+                    </aside>
+
+                    <aside>
+                        <div id="adicionar" class="div-espaco">
+                            <a onclick="adicionar()">+ Inserir dados acadêmica</a>
+                        </div>
+                    </aside>
+                </div>
+
+            </fieldset>
+
+            <fieldset contenteditable="true">
+                <legend>Cursos Complementares</legend>
+
+                <div id="cursoExtra">
+                    <div class="div-espaco">
+                        <p>
+                            <label for="inome-curso">Curso:</label>
+                            <input type="text" id="inome-curso" placeholder="Nome do curso" class="inputLargo">
+                        </p>
+                        <p>
+                            <label for="insti">Instituição:</label>
+                            <input type="text" id="insti" placeholder="Nome da instituição" class="inputLargo">
+                        </p>
+                        <p>
+                            <label for="tempo">Carga Horária:</label>
+                            <input type="text" id="tempo" placeholder="Digite a carga horária">
+                        </p>
+                    </div>
+                </div>
+
+                <aside>
+                    <div id="adicionar" class="div-espaco">
+                        <a onclick="AdicionarCurso()">+ Inserir cursos</a>
+                    </div>
+                </aside>
+ 
+            </fieldset>
+        </form>
+
+        <button onclick="window.print()">Imprimir</button>
+
+    </main>
+
+    <!-- script para adicionar novos dados -->
+    <script src="js/ajustes.js"></script>
+    <!-- script para carregar a foto de perfil -->
+    <script src="js/carregarFoto.js"></script>
+
+</body>
+</html>
