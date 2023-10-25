@@ -16,7 +16,7 @@ function adicionarTrabalho(){
     var numero = sortearNumero()
 
     trabalho.innerHTML += `<div class="div-espaco" contenteditable="true"><p><label for="iempresa-${numero}">Empresa:</label> <input type="text" name="empresa-${numero}" id="iempresa-${numero}" placeholder="Nome da empresa"></p><p><label for="icargo-${numero}">Cargo:</label><input type="text" name="cargo-${
-        numero}" id="icargo-${numero}" placeholder="Digite o cargo"></p><p><label for="ilocal-${numero}">Local:</label><input type="text" name="Local-${numero}" id="ilocal-${numero}" placeholder="Digite o local/bairro"></p><p><label for="iperiodo-${numero}">Período</label><input type="text" name="periodo-${numero}" id="iperiodo-${numero}" placeholder="Tempo de serviço"></p></div>`
+        numero}" id="icargo-${numero}" placeholder="Digite o cargo"></p><p><label for="ilocal-${numero}">Local:</label><input type="text" name="Local-${numero}" id="ilocal-${numero}" placeholder="Digite o bairro / cidade"></p><p><label for="iperiodo-${numero}">Período</label><input type="text" name="periodo-${numero}" id="iperiodo-${numero}" placeholder="Tempo de serviço"></p></div>`
 }
 
 
