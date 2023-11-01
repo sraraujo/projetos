@@ -11,6 +11,10 @@
     p{
         font-size: 12px;
     }
+
+    #icontato1, #icontato2{
+        width: 80%;
+    }
 }
 
 /* Telas de tablet */
