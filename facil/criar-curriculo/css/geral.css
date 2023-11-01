@@ -34,6 +34,10 @@ main{
 
 }
 
+#icontato1, #icontato2{
+    width: 80%;
+}
+
 div:empty{
     display: none;
 }
