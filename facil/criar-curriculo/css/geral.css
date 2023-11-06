@@ -50,6 +50,18 @@ picture > img{
     display: none;
 }
 
+.dados-pessoais{
+    width: 100%;
+}
+
+.dados-pessoais > section{
+    width: 50%;
+}
+
+.div-espaco{
+    width: 50%;
+}
+
 .dados-pessoais-input{
     width: 55%;
 }
@@ -96,12 +108,13 @@ input:focus-visible{
 }
 
 p{
-    margin: 0 0 1px 5px;
+    margin: 0 10px 1px 10px;
 }
 
 p#texto-editavel{
     text-align: justify;
     text-indent: 30px;
+    line-height: 20px;
 }
 
 button{
