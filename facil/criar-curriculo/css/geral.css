@@ -15,7 +15,7 @@ body{
 }
 
 main{
-    width: 300px;
+    width: 320px;
     padding: 20px;
     margin: 10px auto;
     background-color: white;
@@ -86,7 +86,7 @@ legend{
 }
 
 label{
-    font-size: 14px;
+    font-size: 12px;
     font-weight: bold;
 }
 
@@ -107,7 +107,7 @@ input:focus-visible{
 }
 
 .input-curto{
-    width: 70%;
+    width: 65%;
 }
 
 .trabalho{
