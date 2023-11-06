@@ -27,7 +27,7 @@ function AdicionarCurso(){
 
 
 function dicas(){
-    window.alert("OBS1: Todos os campos são editáveis. \nOBS2: Insira novos blocos de informações antes de preencher. \nOBS3: Para desfazer alterações pressione Ctrl+Z ou atualize a página")
+    window.alert("OBS1: Todos os campos são editáveis. \n\nOBS2: Insira novos blocos de informações antes de preencher. \n\nOBS3: Para desfazer alterações pressione Ctrl+Z ou atualize a página")
 }
 
 
