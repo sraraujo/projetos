@@ -14,7 +14,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
 </head>
-<body onload="dicas()">
+<body>
     
     <main>
 
@@ -63,12 +63,12 @@
                     <section>
                         <p class="esquerda">
                             <label for="iidade">Idade: </label>
-                            <input type="text" name="idade" id="iidade" placeholder="Digite sua idade" class="idados-pessoais">
+                            <input type="text" name="idade" id="iidade" placeholder="Digite sua idade" class="idados-pessoais dados-pessoais-input">
                         </p>
 
                         <p class="esquerda">
                             <label for="estado-civil">Estado Civil: </label>
-                            <input type="text" name="estado-civil" id="estado-civil" list="destado-civil" placeholder="Digite aqui">
+                            <input type="text" name="estado-civil" id="estado-civil" class="dados-pessoais-input" list="destado-civil" placeholder="Digite aqui">
                             
                             <datalist name="estado-civil" id="destado-civil">
                                 <option value="Escolha" disabled selected>--- Escolha ---</option>
@@ -84,12 +84,12 @@
                     <section >
                         <p class="direita">
                             <label for="inaturalidade">Naturalidade:</label>
-                            <input type="text" name="naturalidade" id="inaturalidade" placeholder="Local de nascimento" class="idados-pessoais">
+                            <input type="text" name="naturalidade" id="inaturalidade" class="dados-pessoais-input" placeholder="Local de nascimento" class="idados-pessoais">
                         </p>
 
                         <p class="direita">
                             <label for="inacionalidade">Nacionalidade:</label>
-                            <input type="text" name="Nacionalidade" id="inacionalidade" placeholder="País de origem" class="idados-pessoais" list="nacionalidade">
+                            <input type="text" name="Nacionalidade" id="inacionalidade" class="dados-pessoais-input" placeholder="País de origem" class="idados-pessoais" list="nacionalidade">
                             <datalist id="nacionalidade">
                                 <option>Brasileira(o)</option>
                                 <option>Estrangeira(o)</option>
@@ -187,7 +187,7 @@
                         </p>
                         <p>
                             <label for="tempo">Carga Horária:</label>
-                            <input type="text" id="tempo" placeholder="Digite a carga horária">
+                            <input type="text" id="tempo" class="input-curto" placeholder="Digite a carga horária">
                         </p>
                     </div>
                 </div>

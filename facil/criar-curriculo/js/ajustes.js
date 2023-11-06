@@ -8,7 +8,7 @@ var novoCurso = document.querySelector("#cursoExtra")
 function adicionar(){
     var numero = sortearNumero()
 
-    cursoSuperior.innerHTML += `<div class="div-espaco" contenteditable="true"><p><label for="iuniversidade-${numero}">Universidade:</label><input type="text" name="universidade-${numero}" id="iuniversidade-${numero}" placeholder="Nome da universidade" class="inputLargo"></p><p><label for="icurso-${numero}">Curso:</label><input type="text" name="curso-${numero}" id="icurso-${numero}" placeholder="Nome do curso" class="inputLargo"></p><p><label for="iduracao-${numero}">Período:</label><input type="text" name="periodo-${numero}" id="iduracao-${numero}" placeholder="digite o período"></p></div>`
+    cursoSuperior.innerHTML += `<div class="div-espaco" contenteditable="true"><p><label for="iuniversidade-${numero}">Universidade:</label><input type="text" name="universidade-${numero}" id="iuniversidade-${numero}" placeholder="Nome da universidade" class="inputLargo input-curto"></p><p><label for="icurso-${numero}">Curso:</label><input type="text" name="curso-${numero}" id="icurso-${numero}" placeholder="Nome do curso" class="inputLargo"></p><p><label for="iduracao-${numero}">Período:</label><input type="text" name="periodo-${numero}" id="iduracao-${numero}" placeholder="digite o período"></p></div>`
 }
 
 
@@ -22,7 +22,7 @@ function adicionarTrabalho(){
 
 function AdicionarCurso(){
     var numero = sortearNumero()
-    novoCurso.innerHTML +=`<div class="div-espaco" contenteditable="true"><p><label>Curso:</label><input type="text" placeholder="Nome do curso" class="inputLargo"></p><p><label>Instituição:</label><input type="text" placeholder="Nome da instituição" class="inputLargo"></p><p><label>Carga Horária:</label><input type="text" placeholder="Digite a carga horária"></p></div>`
+    novoCurso.innerHTML +=`<div class="div-espaco" contenteditable="true"><p><label>Curso:</label><input type="text" placeholder="Nome do curso" class="inputLargo"></p><p><label>Instituição:</label><input type="text" placeholder="Nome da instituição" class="inputLargo"></p><p><label>Carga Horária:</label><input type="text" placeholder="Digite a carga horária" class="input-curto"></p></div>`
 }
 
 

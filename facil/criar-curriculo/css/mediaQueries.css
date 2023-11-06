@@ -1,19 +1,24 @@
 /* ajuste no LEGEND */
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 500px) {
     #nome-destaque{
         font-size: 21px;
     }
 
     main{
-        width: 480px;
+        width: 450px;
+    }
+
+    .file-button{
+        display: flex;
     }
 
     p{
         font-size: 12px;
+        margin-bottom: 5px;
     }
 
     #icontato1, #icontato2{
-        width: 80%;
+        width: 70%;
     }
 }
 
@@ -86,7 +91,16 @@
     }
 
     .inputLargo{
-        width: 73%;
+        width: 60%;
+    }
+
+    legend{
+        font-size: 18px;
+        padding: 0 10px;
+    }
+    
+    p#texto-editavel{
+        font-size: 16px;
     }
 }
 
@@ -135,8 +149,20 @@
         width: 50%;
     }
 
+    .inputLargo{
+        width: 70%;
+    }
+
     p{
         font-size: 13px;
+    }
+
+    label{
+        font-size: 14px;
+    }
+
+    input{
+        font-size: 14px;
     }
 
     #adicionar{

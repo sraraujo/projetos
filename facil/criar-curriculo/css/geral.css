@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+@import url("links-botoes.css");
+
 *{
     padding: 0;
     margin: 0;
@@ -13,198 +15,95 @@ body{
 }
 
 main{
-    width: 260px;
+    width: 300px;
     padding: 20px;
-    margin: 20px auto;
-    
-    border-radius: 15px;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.431);
+    margin: 10px auto;
     background-color: white;
 }
 
 #nome-destaque{
-    font-size: 14px;
-    text-align: center;
-    font-weight: bold;
-    font-variant: small-caps;
-    
+    text-transform: uppercase;
     width: 100%;
-    display: block;
-    margin: auto;
-
-}
-
-div:empty{
-    display: none;
-}
-
-label{
+    font-size: 14px;
     font-weight: bold;
 }
 
-input{
-    padding: 1px 5px;
-    border: 0;
-    outline: 0;
-}
-
-input:focus{
-    border-bottom: 1px solid rgba(0, 0, 0, 0.361);
-}
-
-.file-chooser{
-    display: none;
-}
-
-.file-button{
-    padding: 3px 0;
-}
-
-select{
-    border: none;
-}
-
-.div-espaco{
-    padding: 5px 0;
+/* dados de endereço - topo*/
+div#dados{
+    width: 100%;
+    margin: 5px 0;
 }
 
 article{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-#dados{
-    width: 450px;
-}
-
-#foto{
-    display: block;
-    margin: auto;
-}
-
-article > div > picture > img{
+picture > img{
     width: 70px;
     height: 80px;
-
-    display: flex;
-    margin: auto;
     object-fit: cover;
-
-    border: none;
 }
 
 .file-button{
-    display: block;
-    margin: auto;
-    width: 100px;
-}
-
-.file-button:hover{
-    background-color: green;
-}
-
-p{
-    font-size: 14px;
-    text-align: justify;
-    padding: 3px 10px 3px 14px;
-}
-
-#texto-editavel{
-    text-indent: 20px;
-    line-height: 20px;
-}
-
-#objetivos{
-    text-indent: 20px;
-}
-
-p::selection, strong::selection, a::selection{
-    background-color: lightcoral;
-}
-
-fieldset{
-    margin: 15px auto;
-    border-radius: 8px;   
-
-    border:  2px solid rgba(0, 0, 0, 0.615);
-}
-
-fieldset:empty{
     display: none;
 }
 
+.dados-pessoais-input{
+    width: 55%;
+}
+
+fieldset{
+    padding: 5px;
+    margin-top: 15px;
+
+    border: 1px solid rgb(0, 0, 50);
+    border-radius: 7px;
+}
+
 legend{
-    color: rgb(2, 70, 107);
+    color:  rgb(5, 5, 81);
+    font-size: 15px;
+    font-weight: bold;
     text-align: center;
+    padding: 0 5px;
+}
+
+label{
+    font-size: 14px;
     font-weight: bold;
-    padding: 0 10px;
 }
 
-#dados-academicos{
-    display: block;
-    flex-direction: row;
-}
-
-.formaçao-escolar{
-    width: 100%;
-    display: block;
-}
-
-#curso-superior{
-    width: 400px;
-}
-
-#adicionar{
+input{
     font-size: 12px;
+    margin-left: 5px;
 
-    width: 180px;
-    display: block;
+    border: none;
+    outline: none;
 }
 
-.trabalho{
-    display: flex;
-    flex-wrap: wrap;
+input:focus-visible{
+    border-bottom: 1px solid black;
 }
 
-.inputLargo{
-    width: 75%;
+.input-curto{
+    width: 55%;
 }
 
-a{
-    color: rgb(213, 138, 0);
-    font-weight: bold;
-    margin-left: 13px;
+.div-espaco{
+    margin-bottom: 10px;
 }
 
-a:hover{
-    color: rgb(6, 121, 33);
-    text-decoration: underline;
+p{
+    margin: 0 0 1px 5px;
 }
 
-a:active{
-    color: red;
+p#texto-editavel{
+    text-align: justify;
+    text-indent: 30px;
 }
 
 button{
-    color: white;
-    font-weight: bold;
-
-    display: flex;
-    align-items: center;
-    padding: 7px 10px;
-    margin: auto;
-    
-    border: 1px solid rgba(0, 0, 0, 0.423);
-    border-radius: 5px;
-    background-color: green;
-}
-
-button:hover{
-    color: red;
-    text-decoration: underline;
-    background-color: yellow;
-}
-
-button:active{
-    color: yellow ;
-    background-color: red;
+    margin-top: 10px;
 }
