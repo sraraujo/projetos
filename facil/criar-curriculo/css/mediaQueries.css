@@ -37,6 +37,14 @@
         width: 100%;
     }
 
+    .dados-pessoais > section{
+        width: 50%;
+    }
+    
+    .div-espaco{
+        width: 50%;   
+    }
+
     input{
         font-size: 14px;
     }
@@ -91,7 +99,11 @@
     }
 
     .inputLargo{
-        width: 60%;
+        width: 70%;
+    }
+
+    .input-curto{
+        width: 50%;
     }
 
     legend{
@@ -100,6 +112,10 @@
     }
     
     p#texto-editavel{
+        font-size: 16px;
+    }
+
+    a{
         font-size: 16px;
     }
 }
@@ -120,6 +136,23 @@
     article{
         display: flex;
         justify-content: space-between;
+    }
+
+    .dados-pessoais > section{
+        width: 50%;
+    }
+    
+    .div-espaco{
+        width: 50%;   
+    }
+
+    .div-curso{
+        width: 100%;
+        margin-bottom: 12px;
+    }
+
+    .inputLargo{
+        width: 70%;
     }
 
     article > div > picture:empty > img{
@@ -149,10 +182,6 @@
         width: 50%;
     }
 
-    .inputLargo{
-        width: 70%;
-    }
-
     p{
         font-size: 13px;
     }
@@ -167,11 +196,6 @@
 
     #adicionar{
         display: none;
-    }
-
-    .trabalho{
-        display: flex;
-        flex-wrap: wrap;
     }
 
     a{

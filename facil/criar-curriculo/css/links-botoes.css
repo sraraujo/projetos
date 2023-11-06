@@ -3,7 +3,8 @@
 }
 
 .file-button{
-    padding: 3px 0;
+    display: none;
+    padding: 3px;
 }
 
 a{
@@ -29,7 +30,7 @@ button{
     display: flex;
     align-items: center;
     padding: 7px 10px;
-    margin: auto;
+    margin: 10px auto;
     
     border: 1px solid rgba(0, 0, 0, 0.423);
     border-radius: 5px;

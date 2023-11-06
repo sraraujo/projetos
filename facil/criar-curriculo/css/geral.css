@@ -31,7 +31,7 @@ main{
 /* dados de endereço - topo*/
 div#dados{
     width: 100%;
-    margin: 5px 0;
+    margin: 5px 0 5px 5px;
 }
 
 article{
@@ -46,20 +46,23 @@ picture > img{
     object-fit: cover;
 }
 
-.file-button{
-    display: none;
-}
-
 .dados-pessoais{
     width: 100%;
+    flex-wrap: wrap;
 }
 
 .dados-pessoais > section{
-    width: 50%;
+    width: 100%;
 }
 
 .div-espaco{
-    width: 50%;
+    width: 100%;   
+    margin-bottom: 12px;
+}
+
+.div-curso{
+    width: 100%;
+    margin-bottom: 12px;
 }
 
 .dados-pessoais-input{
@@ -95,28 +98,35 @@ input{
     outline: none;
 }
 
+.inputLargo{
+    width: 70%;
+}
+
 input:focus-visible{
     border-bottom: 1px solid black;
 }
 
 .input-curto{
-    width: 55%;
+    width: 70%;
 }
 
-.div-espaco{
-    margin-bottom: 10px;
+.trabalho{
+    margin-bottom: 12px;
 }
 
 p{
-    margin: 0 10px 1px 10px;
+    width: 100%;
+    margin: 0 5px 1px 5px;
 }
 
 p#texto-editavel{
     text-align: justify;
     text-indent: 30px;
     line-height: 20px;
+
+    padding: 0 5px 0 0;
 }
 
-button{
-    margin-top: 10px;
+.mt{
+    margin-top: 12px;
 }
