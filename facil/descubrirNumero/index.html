@@ -24,21 +24,29 @@
             <strong>Dica:</strong> <output id="dica">tá entre 1 e 1000</output>
         </p>
 
-        <p>
-            <label for="ichute">Qual o seu palpite?</label>
-            <input type="number" name="chute" id="ichute" placeholder="Palpite">
-        </p>
+        <div>
+            <p>
+                <label for="ichute">Qual o seu palpite?</label>
+                <input type="number" name="chute" id="ichute" placeholder="Palpite">
+            </p>
 
-        <p id="p-btc">
-            <button type="submit" id="jogar" onclick="jogoAdivinhar()">Jogar</button>
-            <button onclick="resetarjogo()">Reiniciar</button>
-        </p>
+            <p id="p-btc">
+                <button type="submit" id="jogar" onclick="jogoAdivinhar()">Jogar</button>
+                <button id="resetar" onclick="resetarjogo()">Reiniciar</button>
+            </p>
+        </div>
 
         <p class="txt-center">
             <strong>Tentativas:</strong> <output id="tentativas">0</output>
         </p>
 
     </main>
+
+    <footer>
+        <p>
+            Desenvolvido por <a href="https://sraraujo.github.io/redes-sociais/" target="_blank" rel="external">Jota Dev</a href="https://sraraujo.github.io/redes-sociais/" target="_blank" rel="external"> © 2023
+        </p>
+    </footer>
 
     <script src="script/script.js"></script>
     
