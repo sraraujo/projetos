@@ -3,9 +3,17 @@
     h1{
         font-size: 32px;
     }
+    
     main{
         width: 500px;
-        height: 300px;
+        height: 400px;
+
+        border: 2px solid black;
+        background-image: url("../imagens/background-op40.jpg");
+    }
+
+    main > p > a{
+        line-height: 50px;
     }
 
     p{
@@ -24,8 +32,9 @@
 
 
 @media screen and (min-width: 1025px) {
+    
     main{
-        height: 350px;
+        height: 420px;
     }
 
     p{

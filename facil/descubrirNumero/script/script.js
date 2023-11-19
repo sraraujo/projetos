@@ -13,7 +13,7 @@ function jogoAdivinhar(){
         limparChute()
     
     } else if(chute.value < 1 || chute.value > 1000){
-        alert("[ ERRO ] - Digite um número entre 1 e 10.")
+        alert("[ ERRO ] - Digite um número entre 1 e 1000.")
         limparChute()
     
     } else{
@@ -38,7 +38,7 @@ function jogoAdivinhar(){
 
 
 function sortearNumero(){
-    let numero = Number(Math.floor(Math.random() * 1001))
+    let numero = Math.floor((Math.random() * 1000) + 1)
     
     if(numero >= 1 && numero <= 1000){
         numeroSecereto = numero
