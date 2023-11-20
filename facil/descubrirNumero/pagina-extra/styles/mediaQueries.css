@@ -1,0 +1,31 @@
+@media screen and (min-width: 520px) {
+    iframe{
+        width: 90%;
+        height: 90%;
+    }
+
+    nav > ul{
+        font-size: 24px;
+        list-style: none;
+        
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+        
+        margin-top: 20px;
+    }
+    
+}
+
+@media screen and (min-width: 769px) {
+    iframe{
+        height: 100%;
+    }    
+}
+
+@media screen and (min-width: 1200px) {
+    iframe{
+        width: 1200px;
+        height: 800px;
+    }    
+}
