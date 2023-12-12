@@ -1,0 +1,135 @@
+@charset "UTF-8";
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    font-family: "Roboto Mono", monospace;
+    text-align: center;
+    background-image: url("https://caelum-online-public.s3.amazonaws.com/assets-imersaodev/background-aluraflix.png");
+    background-color: #000000;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+  
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+body > div#catalogo > img {
+  margin: 10px;
+}
+
+img {
+  flex-direction: row;
+  width: 167px;
+  max-height: 250px;
+  object-fit: cover;
+} 
+
+div.card{
+  width: 167px;
+  height: 290px;
+  margin: 0 10px 20px 10px;
+
+  background-color: white;
+}
+
+div.card > img{
+  height: 240px;
+  object-fit: cover;
+}
+
+div.card:hover{
+  transition: 0.3s;
+  transform: scale(.98);
+  box-shadow:   1px 1px 20px 9px rgba(255,255,255,1);
+}
+
+div.card:active{
+  box-shadow:   1px 1px 20px 9px rgb(248, 236, 0)
+}
+
+div#catalogo{
+  max-width: 1100px;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+main{
+  min-height: 500px;
+}
+
+main p{
+  font-weight: bold;
+  height: 40px;
+  padding: 0 5px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+div#catalogo > a {
+  color: black;
+}
+
+a{
+  text-decoration: none;
+}
+
+footer{
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  line-height: 25px;
+
+  margin-top: 10px;
+  padding: 5px 0;
+}
+
+footer > p > a{
+  color: rgb(171, 171, 171);
+}
+
+footer > p > a:hover{
+    color: yellow;
+    text-decoration: underline;
+}
+
+main > p > a:active, footer > p > a:active{
+    color: red;
+}
+  

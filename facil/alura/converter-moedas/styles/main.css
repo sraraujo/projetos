@@ -1,0 +1,63 @@
+main{
+    min-height: 700px;
+    margin: auto;
+
+    display: block;
+}
+
+h2{
+    font-size: 1.7rem;
+}
+
+div#resultado{
+    max-width: 650px;
+    padding: 5px;
+    margin: auto;
+
+    border-radius: 15px;
+    background-color: white;
+}
+
+hr{
+    padding: 0 15px;
+}
+
+input{
+    font-size: 16px;
+
+    width: 180px;
+    height: 40px;
+
+    margin: 0 auto 20px auto ;
+    padding: 5px;
+
+    outline: none;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+button{
+    color: white;
+    font-size: 18px;
+     
+    width: 120px;
+    height: 50px;
+
+    margin: 0 0 20px 20px;
+
+    border-radius: 8px;
+    background-color: rgb(1, 174, 1);
+}
+
+button:hover{
+    background-color: green;
+}
+
+button:active{
+    background-color: rgb(0, 61, 0);
+}
+
+main p{
+    padding: 0 4px;
+    font-size: 18px;
+}

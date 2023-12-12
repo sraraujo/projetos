@@ -1,0 +1,138 @@
+@charset "UTF-8";
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+  background-image: url("https://www.alura.com.br/assets/img/imersoes/dev-2021/dia-04-aluraflix-e-filmes.png");
+  background-color: #000000;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-attachment: fixed;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  font-size: 24px;
+  margin: 40px 0 20px 0;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+#listaFilmes{
+  max-width: 1200px;
+  min-height: 400px;
+  
+  margin: auto;
+  
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+#listaFilmes img {
+  width: 180px;
+  margin:  0;
+  max-height: 250px;
+}
+
+.form-wrapper {
+  margin: 0 0 15px;
+}
+
+#areaInput{
+  max-width: 620px;
+  margin: auto;
+  display: flex;
+}
+
+.form-wrapper input {
+  font-size: 18px;
+
+  width: 250px;
+  height: 25px;
+
+  display: block;
+  margin: 0 auto;
+  padding: 10px 15px;
+}
+
+.form-wrapper button {
+  border: 0;
+  color: #ffffff;
+  background: #da1e26;
+  font-weight: bold;
+  padding: 15px 20px;
+  font-size: 16px;
+  border-radius: 8px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.form-wrapper button:hover {
+  opacity: 0.8;
+}
+
+.form-wrapper button:active{
+  background-color: green;
+  opacity: 1;
+}
+
+div.card{
+  width: 180px;
+  height: 310px;
+  object-fit: cover;
+
+  background-color: white;
+}
+
+div.card:hover{
+  transform: scale(0.98);
+  transition: 0.3s;
+  box-shadow: 0px 0px 20px 8px rgba(255.255.255,1);
+}
+
+div.card > img{
+  height: 250px;
+  object-fit: cover;
+}
+
+div.card > p#txt-center{
+  text-transform: capitalize;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer > p{
+  color: white;
+
+  margin-top: 20px;
+}

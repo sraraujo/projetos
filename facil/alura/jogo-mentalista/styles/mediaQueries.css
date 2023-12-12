@@ -34,11 +34,12 @@
 @media screen and (min-width: 1025px) {
     
     main{
-        height: 400px;
+        height: 350px;
     }
 
     p{
         font-size: 22px;
+        line-height: 30px;
     }
 
     p > input{

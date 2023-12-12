@@ -130,3 +130,7 @@ p#texto-editavel{
 .mt{
     margin-top: 12px;
 }
+
+fieldset:empty{
+    display: none;
+}
