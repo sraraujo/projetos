@@ -14,37 +14,41 @@
     <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
 </head>
-<body onload="dicas()">
+<body>
     
     <main>
-
         <form action="" method='post' autocomplete="on">
             <input type="text" placeholder="Digite Nome Completo" autocomplete="name" id="nome-destaque">
             
+            <!-- Informações Pessoais-->
             <article>
-
                 <div id="dados" contenteditable="true">
                     <p>
                         <label for="ibairro">Bairro: </label>
-                        <input type="text" name="bairro" id="ibairro" autocomplete="street-address" placeholder="Bairro, Cidade, Estado">
+                        <input type="text" name="bairro" id="ibairro" class="icontatos" autocomplete="street-address" placeholder="Bairro, Cidade, Estado">
                     </p>
 
                     <p>
                         <label for="icep">CEP: </label>
-                        <input type="number" name="CEP" id="icep" placeholder="Digite seu cep">
+                        <input type="number" name="CEP" id="icep" placeholder="Digite seu CEP">
                     </p>
 
                     <p>
                         <label for="icontato1">Contato 1: </label>
-                        <input type="text" name="contato" id="icontato1" placeholder="Digite seu contato 1">
+                        <input type="text" name="contato" id="icontato1" class="icontatos" placeholder="Exemplo: (xx) x.xxxx-xxxx">
                     </p>
 
                     <p>
                         <label for="icontato2">Contato 2: </label>
-                        <input type="text" name="contato" id="icontato2" placeholder="Digite seu contato 2">
+                        <input type="text" name="contato" id="icontato2" class="icontatos" placeholder="Exemplo: (xx) x.xxxx-xxxx">
+                    </p>
+                    <p>
+                        <label for="icontato2">E-mail: </label>
+                        <input type="text" name="contato" class="icontatos" placeholder="Digite seu e-mail">
                     </p>
                 </div>
 
+                <!-- Div para carregar a foto de perfil -->
                 <div id="foto">
                     <picture id="area-foto">
                         <!--<img class="preview-img"> -->
@@ -100,13 +104,14 @@
                 
             </fieldset>
 
+            <!-- Experiência Profissional -->
             <fieldset contenteditable="true">
                 <legend>Experiência Profissional</legend>
                 
                 <div class="dados-pessoais ExperienciaProfissional">
                     <div class="div-espaco" contenteditable="true">
                         <p>
-                            <label for="iempresa">Empresa:</label> 
+                            <label for="iempresa">Empresa:</label>
                             <input type="text" name="empresa" id="iempresa" placeholder="Nome da empresa">
                         </p>
                         <p>
@@ -131,6 +136,7 @@
                 </aside>
             </fieldset>
 
+            <!-- Objetivos / Interesses -->
             <fieldset contenteditable="true">
                 <legend>Objetivos / Interesses</legend>
                 
@@ -142,6 +148,7 @@
 
             </fieldset>
 
+            <!-- Formação Acadêmica & Escolar -->
             <fieldset contenteditable="true">
                 <legend>Formação Acadêmica & Escolar</legend>
                 
@@ -172,6 +179,7 @@
 
             </fieldset>
 
+            <!-- Cursos Complementares -->
             <fieldset contenteditable="true">
                 <legend>Cursos Complementares</legend>
 
@@ -205,10 +213,13 @@
 
     </main>
 
+    <footer>
+        Desenvolvido por Jota Pereira &copy; 2023
+    </footer>
+
     <!-- script para adicionar novos dados -->
     <script src="js/ajustes.js"></script>
     <!-- script para carregar a foto de perfil -->
     <script src="js/carregarFoto.js"></script>
-
 </body>
 </html>

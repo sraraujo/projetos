@@ -17,7 +17,7 @@
         margin-bottom: 5px;
     }
 
-    #icontato1, #icontato2{
+    .icontatos{
         width: 70%;
     }
 }
@@ -127,6 +127,10 @@
         font-size: 32px;
     }
 
+    .icontatos{
+        width: 75%;
+    }
+
     main{
         width: 100vw;
         margin: 0 auto;
@@ -184,6 +188,7 @@
 
     p{
         font-size: 13px;
+        width: 90%;
     }
 
     label{
@@ -203,6 +208,9 @@
     }
 
     button{
+        display: none;
+    }
+    footer{
         display: none;
     }
 }
