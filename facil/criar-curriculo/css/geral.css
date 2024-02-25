@@ -46,6 +46,10 @@ picture > img{
     object-fit: cover;
 }
 
+picture > img:not(.file-chooser:empty){
+    border: 1px solid black;
+}
+
 .dados-pessoais{
     width: 100%;
     flex-wrap: wrap;
